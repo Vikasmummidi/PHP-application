@@ -1,10 +1,10 @@
 
 <?php 
-$connection = mysqli_connect("localhost", "root", "", "practice_vs");
+$connection = mysqli_connect("mysql-db", "root", "your_root_password", "practice_vs");
     if (!$connection) {
     die("Connection failed: " . mysqli_connect_error());
 }
-echo "Connected successfully";
+//echo "Connected successfully";
 
     // Selecting a database 
 

@@ -1,8 +1,4 @@
-<head> <link href=style.css rel=stylesheet type="text/css">
-</head>
 <?php
-
-
 session_start();
 if(isset($_SESSION['sid']))
     {
@@ -37,6 +33,7 @@ mysqli_close($connection);
 }
 
 ?>
+<head> <link href=style.css rel=stylesheet type="text/css"> </head>
 <script>
 
    

@@ -1,14 +1,3 @@
-<<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title></title>
-</head>
-
-
-
-
-
 <?php
 if(isset($_REQUEST['sub']))
 { session_start();
@@ -16,6 +5,13 @@ if(isset($_REQUEST['sub']))
 header("location:Questionpaper2.php");
 }
 ?>
+
+<<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
 <script>
    function marks()
    
