@@ -24,7 +24,7 @@ $row=mysqli_fetch_assoc($result);
     <ul class="topnav" id="dropdownClick">
         <li><a class="active" href="image.php">Home</a></li>
         <li><a href="aboutus.php">About us</a></li>
-        <?php if($row["ROLE"]==1)echo'<li><a href="Studentregistration.php"> Stutdent Registration</a></li>';?>
+        <?php if($row["ROLE"]==1)echo'<li><a href="studentregistration.php"> Stutdent Registration</a></li>';?>
         <li><a href="studentloginform.php">Student login</a></li>
         <?php if($row["ROLE"]==1) echo'<li><a href="studentdetails.php">Student Details</a></li>';?>
         <li><a href="Qualifiedlist.php">Qualified list</a></li>
