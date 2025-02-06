@@ -3,7 +3,6 @@ session_start(); if(!isset($_SESSION['sid'])){ header('location:index.php');}
 ?>
 <?php
 include "dbcon.php";
-include "navbar.html";
 if(isset($_REQUEST['sub']))
 {
     $sid = $_REQUEST['sid'];
@@ -25,7 +24,7 @@ echo"<script>alert('StudentId and Password are not matched');</script>";
 mysqli_close($connection);
 
 }
-
+include "navbar.html";
 ?>
 
 <head> <link href=style.css rel=stylesheet type="text/css">
