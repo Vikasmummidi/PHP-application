@@ -1,5 +1,6 @@
 <?php
-session_start(); if(!isset($_SESSION['sid'])){ header('location:index.php');}
+//session_start(); 
+if(!isset($_SESSION['sid'])){ header('location:index.php');}
 ?>
 <?php
 include "dbcon.php";
