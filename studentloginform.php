@@ -1,12 +1,7 @@
-<head> <link href=style.css rel=stylesheet type="text/css">
-</head>
 <?php
-
-
 session_start(); if(!isset($_SESSION['sid'])){ header('location:index.php');}
 ?>
 <?php
-
 include "dbcon.php";
 include "navbar.html";
 if(isset($_REQUEST['sub']))
@@ -32,6 +27,9 @@ mysqli_close($connection);
 }
 
 ?>
+
+<head> <link href=style.css rel=stylesheet type="text/css">
+</head>
 <script>
 
    
