@@ -1,4 +1,3 @@
-
 <?php 
 $connection = mysqli_connect("mysql-db", "root", "your_root_password", "practice_vs");
     if (!$connection) {
